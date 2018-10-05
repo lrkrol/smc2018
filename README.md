@@ -11,10 +11,10 @@ This is **not** a public release of the classifier visualisation method. This co
 In the meantime, however, the main trick is really this:
 
 ```matlab
-weights = (EEG.icaweights * EEG.icasphere) * ldapatterns;
+weights = (EEG.icaweights * EEG.icasphere) * patterns;
 weights = abs(weights);
 ```
 
-Where `ldapatterns` contains the classifier pattern(s) to analyse, and `EEG` is an EEGLAB dataset with an ICA decomposition. `weights` then contains the relative contributions of the different ICs to the given pattern(s). 
+Where `patterns` contains the classifier pattern(s) to analyse, and `EEG` is an EEGLAB dataset with an ICA decomposition. `weights` then contains the relative contributions of the different ICs to the given pattern(s). 
 
 The (similarly work-in-progress) [BeMoBIL Pipeline](https://github.com/MariusKlug/bemobil-pipeline) has implemented this in the file `bemobil_distributed_source_localization`. You can use this file for a quick analysis of your single-subject patterns.
