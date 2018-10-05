@@ -15,6 +15,6 @@ weights = (EEG.icaweights * EEG.icasphere) * ldapatterns;
 weights = abs(weights);
 ```
 
-Where `ldapatterns` contains the classifier pattern(s) to analyse, and `EEG` is an EEGLAB dataset with sn ICA decomposition. `weights` then contains the relative contributions of the different ICs to the given pattern(s). 
+Where `ldapatterns` contains the classifier pattern(s) to analyse, and `EEG` is an EEGLAB dataset with an ICA decomposition. `weights` then contains the relative contributions of the different ICs to the given pattern(s). 
 
 The (similarly work-in-progress) [BeMoBIL Pipeline](https://github.com/MariusKlug/bemobil-pipeline) has implemented this in the file `bemobil_distributed_source_localization`. You can use this file for a quick analysis of your single-subject patterns.
