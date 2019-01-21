@@ -2,7 +2,7 @@
 
 Code used for the following paper:
 
-- [Krol, L. R., Mousavi, M., de Sa, V. R. & Zander, T. O. (in print). Towards Classifier Visualisation in 3D Source Space. In _2018 IEEE International Conference on Systems Man and Cybernetics (SMC)_.](https://lrkrol.com/files/krol2018smc-classifiervisualisation.pdf)
+- [Krol, L. R., Mousavi, M., de Sa, V. R., & Zander, T. O. (2018). Towards Classifier Visualisation in 3D Source Space. In _2018 IEEE International Conference on Systems, Man and Cybernetics (SMC)_, (pp. 71–76). doi: 10.1109/SMC.2018.00022](https://lrkrol.com/files/krol2018smc-classifiervisualisation.pdf)
 
 `main_csp`, `main_erp_lda` and `main_erp_corr` are the files used to produce the results presented in the paper for the three methods respectively.
 
